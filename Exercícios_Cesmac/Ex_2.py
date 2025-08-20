@@ -200,6 +200,6 @@ def exercício_7():
        print('Não primo')
 
 
-exercício_7()
+
 
 
