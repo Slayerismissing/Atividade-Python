@@ -1,3 +1,19 @@
+def ex1():
+
+    def autenticacao(user, senha):
+
+        return user == "admin" and senha == "admin"
+    
+
+    usuario = input('Digite seu usuário: ')
+    senha = input('Digite sua senha: ')
+
+    validar = autenticacao(usuario, senha)
+
+    if validar:
+        print('Bem vindo!')
+    else:
+        print('Incorreto...')
 
 def ex2():
     def desconto(preco):
@@ -125,4 +141,5 @@ def ex9():
             print(total)
     except ZeroDivisionError as e:
         print(str(e))
+
 
